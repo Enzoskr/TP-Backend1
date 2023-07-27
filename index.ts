@@ -21,9 +21,9 @@ const main = async () => {
                         name: 'ingresar gasto'
                     },
                     {
-                        value: 90,
-                        name: 'salir'
-                    }
+                        value: 99,
+                        name: "SALIR"
+                    },
                 ]
             }
         ])
@@ -34,7 +34,7 @@ const main = async () => {
                 case 2:
                     await addbills();
                     break
-                    case 90:
+                    case 99:
                         run = false;
                         break
                         default:
